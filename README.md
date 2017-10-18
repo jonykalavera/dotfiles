@@ -1,6 +1,6 @@
 # Jony Kalavera's dotfiles
 
-Always a WIP.
+![Always a WIP.](https://media.giphy.com/media/3o7aD4X6EpKpzjGEDK/giphy.gif)
 
 ## Install on a new host
 * Install vim-spf13
