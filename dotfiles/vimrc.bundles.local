@@ -1,0 +1,4 @@
+Bundle 'ryanoasis/vim-devicons'
+Bundle 'Dru89/vim-adventurous'
+" Bundle 'Shougo/deoplete.nvim'
+Bundle 'szw/vim-tags'

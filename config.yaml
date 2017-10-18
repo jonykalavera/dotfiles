@@ -1,0 +1,24 @@
+config:
+  backup: true
+  create: true
+  dotpath: dotfiles
+dotfiles:
+  f_bashrc:
+    dst: ~/.bashrc
+    src: bashrc
+  f_tmux.conf:
+    dst: ~/.tmux.conf
+    src: tmux.conf
+  f_vimrc.bundles.local:
+    dst: ~/.vimrc.bundles.local
+    src: vimrc.bundles.local
+  f_vimrc.local:
+    dst: ~/.vimrc.local
+    src: vimrc.local
+profiles:
+  jony-desktop:
+    dotfiles:
+    - f_bashrc
+    - f_tmux.conf
+    - f_vimrc.bundles.local
+    - f_vimrc.local
